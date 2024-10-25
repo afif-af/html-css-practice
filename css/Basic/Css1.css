@@ -1,0 +1,141 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(213, 243, 233);
+}
+h1{ 
+    padding-left: 100px;
+    text-align: center;
+    color: blueviolet; 
+
+}
+p#f{
+    color: white;
+    background-color: green;
+    opacity: 0.9;
+    font-family: 'Segoe UI';
+    line-height: 2;
+    padding: 6%;
+}
+p{
+    text-align: center;
+    color: aqua;
+    background-color:white ;
+    
+}
+.submit{
+    background-color: blueviolet;
+}
+.tt{
+    color: blueviolet;
+    background-color: rgb(190, 207, 190);
+    text-align: end;
+    text-transform: uppercase;
+    text-shadow: 0cqmax;
+    text-decoration:salmon ;
+
+
+}
+h2:hover{
+   background-color:aquamarine ;
+  
+}
+h3{
+    text-decoration: dotted;
+}
+div{
+    width: 300px;
+    height: 500px;
+}
+p.o{
+    color: blueviolet;
+    overflow: scroll;
+    width: 200px;
+    height: 200px;
+    border: 2px solid;
+    border-style: solid;
+    border-color: blueviolet;
+    border-left-color: rgb(232, 34, 34) ;
+    border-left-width: 10px;
+    border-top-color: yellow;
+    margin-bottom: auto;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding: 10%;
+    border-radius: 20%;
+}
+
+div.d{
+    
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background-color: #988dff;
+    padding: 5px ;
+}
+
+li{
+    list-style-type: upper-roman;
+
+}
+    table {
+    width: 500px;}
+    td,tr{
+        padding: 7px 10px 10px 10px;
+    }
+    th {
+    text-transform: uppercase;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    }
+    tr.even {
+    background-color: #c3f559;}
+    tr:hover {
+    background-color: #988dff;}
+    .money {
+    text-align: right;}
+    
+
+    a{
+        cursor: move;
+
+        background-color: #988dff;
+        border: 2px solid black;
+        text-decoration: none;
+        font-size: 30px;
+        padding:5px 12px;
+        border: 2px solid blueviolet;
+
+    
+    }
+    a:hover{
+       color: blueviolet;
+       background-color: white;
+
+    }
+    a:active{
+     color: chartreuse;
+     background-color: #111111;
+    }
+    .img{
+        width: 300px;
+        height: 1000px;
+        float: left;
+        margin-top: 1%;
+    }
+
+   p.hublo{
+      color: brown;
+      border: 5px solid darkblue;
+      margin: 50px; 
+      outline: 5px solid green;
+      outline-offset: 10px;
+   }
+   p.hubl{
+      color: blueviolet;
+      text-transform: capitalize;
+      text-indent: 20px;
+      word-spacing: 15px;
+      letter-spacing: 5px;
+      line-height: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+   }

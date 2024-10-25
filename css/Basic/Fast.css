@@ -1,0 +1,51 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: rgb(250, 40, 13);
+    text-align: center;
+    border: 3px solid rgb(214, 204, 60);
+    outline: 5px solid rebeccapurple;
+    outline-offset: 5px;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.p1{
+    border: 3px solid rebeccapurple;
+    text-transform: capitalize;
+    text-indent: 10px;
+    letter-spacing: 5px;
+    word spacing : 16px;
+
+}
+#p2{
+
+    border-width: 3px;
+    border-style: dashed;
+    font-style: italic;
+}
+.afif{
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    border: 3px solid rgb(214, 204, 60);
+    margin-left: 5px;
+    padding:
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+    background-color: brown;
+    font-size: large;
+}
+a:hover{
+    color: chartreuse;
+    background-color: azure;
+}
+a:active{
+    color: yellow;
+}
+a :visited{
+    color: tomato;
+}
