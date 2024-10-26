@@ -1,0 +1,111 @@
+
+html body header h1{
+    color: blue;
+}
+
+
+body header .page-header h1{
+    color: orange;
+}
+
+.page-header .title{
+    color: green;
+}
+
+#page-title{
+    color: red;
+}
+
+
+h1 {
+    font: bold;
+color: #2f4f4f;
+margin-bottom: 10px;
+}
+.nav {
+margin-top: 10px;
+list-style: none;
+padding-left: 0;
+}
+.nav li {
+display: inline-block;
+}
+.nav  a {
+color: white;
+background-color: #13a4a4;
+padding: 5px 15px;
+border-radius: 2px;
+text-decoration: none;
+} 
+.nav .featured{
+    background-color: orange ;
+    box-shadow: 10px 2px #6f9090;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+a:visited{
+    color: purple;
+}
+a:hover{
+  text-decoration: underline;
+
+}
+a:active{
+    color: red;
+}
+.footer{
+    color: #666;
+    background-color: #ccc;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 14px;
+}
+.footer a{
+    color: initial;
+    text-decoration: none;
+}
+.box-small{
+    font-size: 12px;
+
+}
+.box-large{
+    font-size: 18px;
+}
+
+ul {
+    font-size: .8em;
+    }
+    ul ul {
+    font-size: 1em;
+    }
+
+    :root {
+        --main-bg: #fff;
+        --main-color: #000;
+        }
+.panel {
+       font-size: 1rem;
+        padding: 1em;
+        border-radius: 0.5em;
+        border: 1px solid #999;
+        }
+.panel > h2 {
+        margin-top: 0;
+        font-size: 0.8rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        }
+
+.dark {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #999;
+            --main-bg: #333;
+            --main-color: #fff;
+            border-radius: 13px;
+            }
+
+

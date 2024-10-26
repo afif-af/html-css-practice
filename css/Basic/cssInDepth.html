@@ -4,8 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS in Depth</title>
+    <link rel="stylesheet" href="cssInDepth.css">
 </head>
 <body>
-     
+     <header class="page-header">
+        <h1 id="page-title" class="title">Wombat Coffee Roasters</h1>
+        <nav>
+            <ul id="main-nav" class="nav">
+                <li><a href="/">Home</a></li>
+                <li><a href="/coffees">Coffees</a></li>
+                <li><a href="/brewers">Brewers</a></li>
+                <li><a href="/specials" class="featured" >Specials</a></li>
+         </ul>
+        </nav>
+     </header>
+    
+     <main>
+
+        <div class="panel">
+            <h2>Single-origin</h2>
+            <div class="panel-body">
+            We have built partnerships with small farms around the world to
+            hand-select beans at the peak of season. We then carefully roast
+            in <a href="/batch-size">small batches</a> to maximize their
+            potential.
+            </div>
+            </div>
+
+            <aside class="dark">
+                <div class="panel">
+                <h2>Single-origin</h2>
+                <div class="body">
+                We have built partnerships with small farms
+                around the world to hand-select beans at the
+                peak of season. We then careful roast in
+                small batches to maximize their potential.
+                </div>
+                </div>
+                </aside>
+
+        <ul>
+            <li>Top level
+            <ul>
+            <li>Second level
+            <ul>
+            <li>Third level
+            <ul>
+            <li>Fourth level
+            <ul>
+            <li>Fifth level</li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+            </li>
+            </ul>
+
+
+        <span class="box box-small">Small</span>
+        <span class="box box-large">Large</span>
+
+
+        <p>
+            be sure to check out 
+            <a href="/spacials " class="featured">our spacials</a>
+        </p>
+     </main>
+
+
+     <footer class="footer">
+        &copy; 2016 Wombat Coffee Roasters &mdash;
+        <a href="/terms-of-use">Terms of use</a>
+    </footer>
+
+
+   
 </body>
 </html>
