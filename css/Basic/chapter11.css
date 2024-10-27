@@ -1,3 +1,93 @@
+.blend {
+    min-height: 400px;
+    background-image: url(afif.jpg), url(afif.jpg);
+    background-size: cover;
+    /* background-color: #148; */
+    background-repeat: no-repeat;
+    background-position: -30vw, 30vw;
+    /* background-blend-mode: luminosity; */
+    background-blend-mode: soft-light;
+    }
+
+
+.blend > h1 {
+        margin: 0;
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 6rem;
+        text-align: center;
+        mix-blend-mode: hard-light;
+        background-color: #c33;
+        color: #808080;
+        border: 0.1em solid #ccc;
+        border-width: 0.1em 0;
+        }
+
+
+
+.fade2{
+    margin-bottom: 1em;
+    height: 1em;
+    width: 400px;
+    background-image: repeating-linear-gradient(-45deg, #57b,#57b 10px ,#148 10px ,#148 20px);
+    border-radius: 0.3em;
+}
+.fade3{
+    height: 200px;
+    width: 400px;
+    background-image: radial-gradient(white,blue);
+    margin-bottom: 1em;
+}
+
+
+.button{
+    padding: 1em;
+    border: 0;
+font-size: 0.8rem;
+color: white;
+border-radius: 0.5em;
+background-image: linear-gradient(to bottom, #57b, #148);
+box-shadow: 0.1em 0.1em 0.5em #124;
+margin-bottom: 1em;
+}
+
+
+.button:active {
+    box-shadow: inset 0 0 0.5em #124,
+    inset 0 0.5em 1em rgba(0,0,0,0.4);
+    }
+    .button:focus { outline: none; 
+    }
+
+
+
+
+.button1{
+    margin-top: 1em;
+        padding: 0.8em;
+        border: 0;
+        font-size: 1rem;
+        color: white;
+        border-radius: 0.5em;
+        background-color: #57b;
+        box-shadow: 0 0.4em #148;
+        text-shadow: 1px 1px #148;
+ }
+.button1:active {
+        background-color: #456ab5;
+        transform: translateX(0.1em);
+        box-shadow: 0 0.3em #148;
+}
+
+
+
+
+
+
+
+
+
+
+
 .fade{
     width:200px;
     height: 400px;
@@ -10,7 +100,5 @@ height: 200px;
 width: 400px;
 background-image: linear-gradient(90deg, red, white, blue);
 }
-
-
 
 

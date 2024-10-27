@@ -1,0 +1,217 @@
+html {
+    --brand-green: #076448;
+    --dark-green: #099268;
+    --medium-green: #20c997;
+    --text-color: #212529;
+    --gray: #868e96;
+    --light-gray: #f1f3f5;
+    --extra-light-gray: #f8f9fa;
+    --white: #fff;
+    box-sizing: border-box;
+    color: var(--text-color);
+    }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    }
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.4;
+    background-color: var(--extra-light-gray);
+    }
+h1, h2, h3, h4 {
+    font-family: Georgia, serif;
+    }
+a {
+    color: var(--medium-green);
+    }
+a:visited {
+    color: var(--brand-green);
+    }
+a:hover {
+        color: var(--brand-green);
+        }
+ a:active {
+
+        }
+
+        .nav-container {
+            background-color: var(--medium-green);
+            }
+            .nav-container__inner {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1080px;
+            margin: 0 auto;
+            }
+            .home-link {
+            color: var(--text-color);
+            font-size: 1.6rem;
+            font-family: Georgia, serif;
+            font-weight: bold;
+            text-decoration: none;
+            }
+            .top-nav {
+            display: flex;
+            list-style-type: none;
+            }
+            .top-nav a {
+            display: block;
+            padding: 0.3em 1.25em;
+            color: var(--white);
+            background: var(--brand-green);
+            text-decoration: none;
+            border-radius: 3px;
+            }
+            .top-nav a:hover {
+            background-color: var(--dark-green);
+            }
+            .top-nav__featured > a {
+            color: var(--brand-green);
+            background-color: var(--white);
+            }
+            .top-nav__featured > a:hover {
+            color: var(--medium-green);
+            background-color: var(--white);
+            }
+            .hero {
+                background: url(afif.jpg) no-repeat;
+                background-size: cover;
+                margin-bottom: 2.5rem;
+                }
+                .hero__inner {
+                max-width: 1080px;
+                margin: 0 auto;
+                padding: 50px 0 200px;
+                text-align: right;
+                }
+                .hero h2 {
+                font-size: 1.95rem;
+                }
+                .button {
+                display: inline-block;
+                padding: 0.4em 1em;
+                color: var(--brand-green);
+                border: 2px solid var(--brand-green);
+                border-radius: 0.2em;
+                text-decoration: none;
+                font-size: 1rem;
+                }
+                .button:hover {
+                background-color: var(--dark-green);
+                color: var(--white);
+                }
+                .button--cta {
+                padding: 0.6em 1em;
+                background-color: var(--brand-green);
+                color: var(--white);
+                border: none;
+                }
+                .container {
+                    margin: 0 auto;
+                    max-width: 1080px;
+                    }
+                    .tile-row {
+                    display: flex;
+                    }
+                    .tile-row > * {
+                    flex: 1;
+                    }
+                    .tile {
+                    background-color: var(--white);
+                    border-radius: 0.3em;
+                    }
+
+
+                    .page-footer {
+                        margin-top: 3em;
+                        padding: 1em 0;
+                        background-color: var(--light-gray);
+                        color: var(--gray);
+                        }
+                        .page-footer__inner {
+                        margin: 0 auto;
+                        max-width: 1080px;
+                        text-align: center;
+                        font-size: 0.8rem;
+                        }
+
+
+body {
+margin: 0;
+font-family: Roboto, sans-serif;
+line-height: 1.4;
+background-color: var(--extra-light-gray);
+}
+h1, h2, h3, h4 {
+font-family: Sansita, serif;
+}
+/* ... */
+.home-link {
+color: var(--text-color);
+font-size: 1.6rem;
+font-family: Sansita, serif;
+font-weight: bold;
+text-decoration: none;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Roboto Light'), local('Roboto-Light'),
+    url(https://fonts.gstatic.com/s/roboto/v15/Hgo13k-
+    tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+    /* latin */
+    @font-face {
+    font-family: 'Sansita';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Sansita ExtraBold'), local('Sansita-ExtraBold'),
+    url(https://fonts.gstatic.com/s/sansita/v1/M0VOVsEPZWhxh-
+    yeRPQtpQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+    U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+    }
+
+
+    body {
+        margin: 0;
+        font-family: Roboto, sans-serif;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+        background-color: var(--extra-light-gray);
+        }
+        .fonts-failed body {
+        font-family: Helvetica, Arial, sans-serif;
+        }
+        h1, h2, h3, h4 {
+        font-family: Sansita, serif;
+        letter-spacing: 0.03em;
+        }
+        .fonts-failed h1,
+        .fonts-failed h2,
+        .fonts-failed h3,
+        .fonts-failed h4 {
+        font-family: Georgia, serif;
+        }
+        …
+        .home-link {
+        color: var(--text-color);
+        font-size: 1.6rem;
+        font-family: Sansita, serif;
+        font-weight: bold;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        }
+        .fonts-failed .home-link {
+        font-family: Georgia, serif;
+        }
+
