@@ -1,0 +1,16 @@
+.fade{
+    width:200px;
+    height: 400px;
+    background-image: linear-gradient(90deg,red 40%,white 40%,white 60%,blue 60%);
+}
+
+.fade1 {
+    margin-top: 1em;
+height: 200px;
+width: 400px;
+background-image: linear-gradient(90deg, red, white, blue);
+}
+
+
+
+
