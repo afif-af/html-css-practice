@@ -37,14 +37,14 @@ a:hover {
 
         }
 
-        .nav-container {
+.nav-container {
             background-color: var(--medium-green);
             }
-            .nav-container__inner {
+.nav-container__inner {
             display: flex;
             justify-content: space-between;
             max-width: 1080px;
-            margin: 0 auto;
+margin:0 auto;
             }
             .home-link {
             color: var(--text-color);

@@ -95,7 +95,7 @@ color: hsl(280, 25%, 10%);
     }
 
 
-    /* .dropdown__drawer {
+    .dropdown__drawer {
         position: absolute;
         background-color: white;
         width: 10em;
@@ -110,7 +110,7 @@ color: hsl(280, 25%, 10%);
         transition-delay: 0s;
         } */
 
-/* .dropdown__drawer {
+.dropdown__drawer {
             position: absolute;
             background-color: white;
             width: 10em;
@@ -120,4 +120,4 @@ color: hsl(280, 25%, 10%);
             }
 .dropdown.is-open .dropdown__drawer {
             height: auto;
-            } */
+            }
