@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 
 
     <style>
+
+        body {
+            background-image: url("1688403802684.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+
 
         a:link{
             color: green;
@@ -31,6 +40,17 @@
             background-color: transparent;
             text-decoration: underline;
         }
+
+        td,th{
+            border: 1px solid blue;
+
+            background-color: white;
+            border-radius: 10px;
+        }
+        tr:nth-child(even){
+            background-color: #20c997;
+        }
+
     </style>
 </head>
 <body>
@@ -60,5 +80,62 @@
  <p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;">
      The image will float to the left of the text.</p>
 
+<img src="1688403802684.jpg" alt="afif " usemap="#afif" style="width: 300px ;">
+<map name="afif">
+    <area shape="circle" coords="34,44,273,350" alt="afif" href="w3schools.html" onclick="myfunction()">
+
+</map>
+
+
+<picture>
+    <source media="(min-width: 650px)" srcset="1688403802684.jpg">
+    <source media="(min-width: 450px)" srcset="1688403802684.jpg">
+    <img src="1688403802684.jpg" style="width: 300px">
+</picture>
+
+<iframe src="form.html" title="description" height="300" width="300" style="border: none"></iframe>
+
+ <iframe src="AudioVideo.html" name="iframe_a" title="iframe exmaple"></iframe>
+ <p><a href="https://www.w3schools.com" target="iframe_a">w3schools</a> </p>
+<pre>
+    <code>
+     x=4;
+     y=5;
+     z=x+y;
+
+ </code>
+</pre>
+
+
+<table>
+    <tr>
+        <th>name</th>
+        <th>roll</th>
+    </tr>
+    <tr>
+        <td>afif</td>
+        <td>23</td>
+    </tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function myfunction(){
+        alert("you click afif");
+    }
+</script>
 </body>
 </html>

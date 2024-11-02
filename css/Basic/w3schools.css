@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#g{
+    height: 200px;
+    width: 300px;
+    background-image:radial-gradient(red 5%, green 15%, blue 60%);
+
+}
+
+
+#gr{
+    height: 200px;
+    width: 300px;
+    background-image:radial-gradient(closest-side at 60% 55%, red, yellow, black);
+    margin-top:5px;
+}
+
+#gra{
+    height: 200px;
+    width: 300px;
+    margin-top:5px;
+    background-image:radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+}
+
+#gradd{
+    height: 200px;
+    width: 200px;
+    margin-top:5px;
+    background-image: repeating-conic-gradient(red 0deg 10deg, yellow 10deg 20deg, blue 20deg 30deg);
+    border-radius: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#grad1{
+    height: 200px;
+    width: 300px;
+    background-image:repeating-linear-gradient(red, 10%, green 20%);
+}
+
+#grad {
+    height: 200px;
+    width: 300px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
